@@ -19,7 +19,7 @@ including (but certainly not limited to):
  - [**SciPy Lecture Notes**][sln] -- by 
    [the Scipy Lecture Notes community][sln_authors]. Latest release: March 2020
 
-[oliphant]: http://web.mit.edu/dvp/Public/numpybook.pdf
+[oliphant]: https://archive.org/details/NumPyBook/page/n3/mode/2up
 [rougier]: https://www.labri.fr/perso/nrougier/from-python-to-numpy/
 [sln]: https://scipy-lectures.org/
 [sln_authors]: https://scipy-lectures.org/preface.html#authors
