@@ -73,3 +73,7 @@ worrying about how topics will be organized/connected (at this stage)
    * Not a NumPy issue, but related - floating point precision
      - How prevalent are these in the issue tracker? If very, perhaps worth
        covering in a subsection (or at least a callout)
+       
+ - Array creation API
+   * e.g. nested, structured dtype (#16678)
+     - Gotchas/corner cases. Worth expanding on? 
