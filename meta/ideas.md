@@ -45,3 +45,28 @@
 
 
 [fp]: https://github.com/fluentpython
+
+## Topics
+
+A scratch area to keep track of some topic ideas, without necessarily 
+worrying about how topics will be organized/connected (at this stage)
+
+ - Memory management
+   
+   Underlies quite a few topics
+   
+   * From the perspective of **optimzation** strided ops for multi-D arys)
+   * nd-index model: linear (i.e. 2-param) mapping from 1D contig. memory
+     to *any* n-dim shape
+   * C vs. F layout - special attention to greater than 2 dims
+     - where 'K' becomes relevant
+     - Examples from the perspective of optimization
+   * Explain what impact this has on determining when NumPy makes copies
+     implicitly
+     - Perhaps a separate chapter/section to account for the role that 
+       type promotion/coercion plays w/ operations
+   
+ - Types/promotion
+   * Seemingly very common source of confusion (TODO: collate issues from GH)
+   * Python scalars vs. NumPy scalars & promotion/casting
+     - e.g. Python `int` w/ value > 2**64-1 -> `object` (#16689)
