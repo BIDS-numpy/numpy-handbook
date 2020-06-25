@@ -70,3 +70,6 @@ worrying about how topics will be organized/connected (at this stage)
    * Seemingly very common source of confusion (TODO: collate issues from GH)
    * Python scalars vs. NumPy scalars & promotion/casting
      - e.g. Python `int` w/ value > 2**64-1 -> `object` (#16689)
+   * Not a NumPy issue, but related - floating point precision
+     - How prevalent are these in the issue tracker? If very, perhaps worth
+       covering in a subsection (or at least a callout)
