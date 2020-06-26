@@ -76,4 +76,9 @@ worrying about how topics will be organized/connected (at this stage)
        
  - Array creation API
    * e.g. nested, structured dtype (#16678)
-     - Gotchas/corner cases. Worth expanding on? 
+     - Gotchas/corner cases. Worth expanding on?
+ 
+ - Relationship between ndarray methods and functions with same name
+   - behavior often different; is there a general rule or any guiding
+     principles that can help users determine when/why there are 
+     differences or is it just a case-by-case situation?
